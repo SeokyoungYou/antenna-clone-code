@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Antenna Music</title>
+    <link rel="shortcut icon" href="img/logo_antenna.png" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <!--class name 길게 지을 것. father, child이름 명시하면서-->
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <!-- Wifi Icon -->
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <!-- Battery Icon-->
+        <i class="fas fa-battery-full"></i>
+        <!-- Lightning Icon-->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Good People, Good Music</h1>
+      <p class="welcome-header__text">
+        Good music made by good people and we deliver the music that vividly and
+        truly touches our hearts.
+      </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Antenna Account or Password</a>
+    </form>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

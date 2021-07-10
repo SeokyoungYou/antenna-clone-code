@@ -1,0 +1,20 @@
+.badge {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center; /*위치 이동은 먼저 center로 놓고 움직여*/
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+.badge__small {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
