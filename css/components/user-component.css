@@ -50,3 +50,10 @@
   margin-bottom: 10px;
   display: block;
 }
+.user-component__phone {
+  display: flex;
+}
+.user-component__phone__icon {
+  margin: 8px 10px;
+  color: red;
+}
