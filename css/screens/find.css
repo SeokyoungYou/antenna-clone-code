@@ -30,6 +30,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
+  font-size: 3.2vw;
 }
 .open-post__title {
   font-weight: 600;
@@ -52,7 +53,7 @@
 }
 .open-post__member-count {
   opacity: 0.5;
-  font-size: 14px;
+  font-size: 3vw;
 }
 .open-post__members .divider {
   width: 1px;
@@ -64,8 +65,8 @@
   color: #ffb0e0;
 }
 .open-post__photo img {
-  width: 120px;
-  height: 120px;
+  width: 23vw;
+  height: 23vw;
   border-radius: 10px;
 }
 .open-post__photo {
