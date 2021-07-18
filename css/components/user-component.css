@@ -4,6 +4,7 @@
 }
 .user-component__column {
   position: relative;
+  font-size: 14px;
 }
 .friends-screen .user-component:first-child {
   margin: -10px 0px;

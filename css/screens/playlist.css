@@ -20,7 +20,7 @@
 }
 .playlist-header {
   width: 90%;
-  margin: 35px 10px;
+  margin: 5% 10px;
   display: flex;
   justify-content: space-between;
   font-size: 20px;
@@ -33,19 +33,19 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 30%;
+  height: 40%;
   width: 70%;
-  font-size: 16px;
+  font-size: 2vh;
   margin-bottom: 20px;
 }
 .playlist-introduction img {
-  width: 130px;
-  height: 130px;
+  width: 15vh;
+  height: 15vh;
   border-radius: 50%;
   box-shadow: 0px 10px 30px rgb(129, 129, 165);
 }
 .playlist-introduction__artist {
-  font-size: 30px;
+  font-size: 4vh;
   font-weight: 800;
 }
 .playlist-introduction__subs {
@@ -59,7 +59,7 @@
 }
 .playlist-introduction__btns div {
   width: 45%;
-  height: 40px;
+  height: 5vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,8 +107,8 @@
 }
 .playlist-list__music__album img,
 .playlist-list__music__album__playing {
-  width: 50px;
-  height: 50px;
+  width: 5vh;
+  height: 5vh;
   border-radius: 10px;
 }
 .playlist-list__music__album__playing {
@@ -127,7 +127,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 18px;
+  font-size: 2vh;
 }
 .playlist-list__music_info span:first-child {
   color: var(--gray);
@@ -164,7 +164,8 @@
   flex-direction: column;
   height: 60%;
   justify-content: space-between;
-  font-size: 20px;
+
+  font-size: 2.5vh;
 }
 .playbar-music span:first-child {
   color: rgb(158, 158, 158);

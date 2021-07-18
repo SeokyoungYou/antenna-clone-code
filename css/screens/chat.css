@@ -16,6 +16,9 @@
 #chat-screen .alt-header {
   z-index: 1;
 }
+#chat-screen .alt-header .fa-angle-left {
+  animation: var(--animation-blink);
+}
 @keyframes fadeIn {
   from {
     transform: translateY(10px);
@@ -63,7 +66,7 @@
 }
 
 .message-row {
-  width: 100%;
+  width: 95%;
   display: flex;
   margin-bottom: 25px;
   opacity: 0;
