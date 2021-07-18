@@ -10,11 +10,10 @@
   </head>
   <body>
     <div class="status-bar">
-      <!--class name 길게 지을 것. father, child이름 명시하면서-->
       <div class="status-bar__column">
-        <span>No Service</span>
+        <span>On Service</span>
         <!-- Wifi Icon -->
-        <i class="fas fa-wifi"></i>
+        <i class="fas fa-broadcast-tower"></i>
       </div>
       <div class="status-bar__column">
         <span>18:43</span>
@@ -32,41 +31,126 @@
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
         <span><i class="far fa-comment-dots fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
-        ></span></div>
+        <span
+          ><a href="music-play.html"><i class="fas fa-music fa-lg"></i></a
+        ></span>
+        <span
+          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
+        ></span>
+      </div>
     </header>
     <main class="main-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
-            src="img/GoodPerson.jpg"
+            src="img/DaCapo.JPG"
             class="user-component__avatar user-component__avatar"
           />
           <div class="user-component__text">
-            <h4 class="user-component__title">Good Person</h4>
-            <h6 class="user-component__subtitle">Toy (with Kim Hyung Joong)</h6>
+            <h4 class="user-component__title">Da Capo</h4>
+            <h6 class="user-component__subtitle">Toy</h6>
           </div>
         </div>
-        <div class="user-component__column"></div>
+        <div class="user-component__column">2014 | 13 songs</div>
+      </div>
+      <a href="playlist.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="img/IGotLucky.jpg"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Shape of me</h4>
+              <h6 class="user-component__subtitle">Kwon Jin-Ah</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">2019 | 10 songs</span>
+            <div class="user-component-link-playlist">
+              Check out the full album
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+      </a>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="img/SunAmdMoon.jpg"
+            class="user-component__avatar user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Sun And Moon</h4>
+            <h6 class="user-component__subtitle">Sam Kim</h6>
+          </div>
+        </div>
+        <div class="user-component__column">2018 | 8 songs</div>
       </div>
       <div class="user-component">
         <div class="user-component__column">
           <img
-            src="img/IGotLucky.jpg"
+            src="img/2006.jpg"
             class="user-component__avatar user-component__avatar"
           />
           <div class="user-component__text">
-            <h4 class="user-component__title">Shape of me</h4>
-            <h6 class="user-component__subtitle">Kwon Jin-Ah</h6>
+            <h4 class="user-component__title">2006</h4>
+            <h6 class="user-component__subtitle">Jukjae</h6>
           </div>
         </div>
-        <div class="user-component__column">
-            <span class="user-component__time">2019|10 songs</span>
-            <div class="badge">new</div>
-        </div>
+        <div class="user-component__column">2020 | 5 songs</div>
       </div>
-
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="img/Beginner's Luck.jpg"
+            class="user-component__avatar user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Beginner's Luck</h4>
+            <h6 class="user-component__subtitle">Peppertones</h6>
+          </div>
+        </div>
+        <div class="user-component__column">2012 | 11 songs</div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="img/Spring Again.jpg"
+            class="user-component__avatar user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Spring Again</h4>
+            <h6 class="user-component__subtitle">Hung Seung-Hwan</h6>
+          </div>
+        </div>
+        <div class="user-component__column">2018 | 10 songs</div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="img/Jinah Restaurant Full Course.jpg"
+            class="user-component__avatar user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Jinah Restaurant</h4>
+            <h6 class="user-component__subtitle">Lee Jin-Ah</h6>
+          </div>
+        </div>
+        <div class="user-component__column">2018 | 13 songs</div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="img/Nowana.jpg"
+            class="user-component__avatar user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Nowana</h4>
+            <h6 class="user-component__subtitle">Lucid Fall</h6>
+          </div>
+        </div>
+        <div class="user-component__column">2019 | 12 songs</div>
       </div>
     </main>
     <!-- Move to other HTML files -->
@@ -79,8 +163,8 @@
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="releases.html">
-            <span class="nav__notification badge">1</span>
-            <i class="fas fa-comment fa-2x"></i>
+            <span class="nav__notification badge">new</span>
+            <i class="nav__link___clicked fas fa-compact-disc fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">

@@ -12,8 +12,11 @@
   justify-content: space-between;
 }
 .nav__link {
-  color: #2e363e;
+  color: rgba(0, 0, 0, 0.25);
   position: relative;
+}
+.nav__link___clicked {
+  color: #2e363e;
 }
 @keyframes appearBtnAnimation {
   from {
@@ -44,11 +47,14 @@
     transform: none;
   }
   50% {
-    transform: translateY(-5px) rotateY(360deg);
+    transform: translateY(-3px);
   }
   100% {
     transform: none;
   }
+}
+.nav__link .nav__notification {
+  font-size: 12px;
 }
 .nav__notification {
   position: absolute; /*다른 layer로 이동, inline->block으로 변경*/
