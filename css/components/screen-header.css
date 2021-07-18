@@ -7,11 +7,11 @@
   padding-top: 50px;
 }
 .screen-header__title {
-  font-size: 32px;
+  font-size: 3.5vh;
   font-weight: 600;
 }
 .screen-header__icons span {
-  margin-left: 25px;
+  margin-left: 5vw;
 }
 @keyframes rotateCog {
   from {
